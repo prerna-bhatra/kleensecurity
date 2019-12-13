@@ -1,0 +1,143 @@
+body
+{
+	overflow-x: hidden;
+	background-color: #000000;
+
+}
+*
+{
+	margin: 0;
+	
+}
+
+h1
+{
+	color: white
+}
+p
+{
+	color: white;
+}
+.glow {
+  font-size:50px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+
+#Services a
+{
+	color: white;
+}
+
+#Services a:hover
+{
+	background-color: red;
+}
+.About1
+{
+	display: grid;
+	grid-template-rows:200px;
+	grid-template-columns: 300px 800px;
+	margin-top:100px;
+}
+.container
+{
+	margin-top:50px;
+}
+
+.trasparentdiv
+{
+	background-color: #121212;
+	padding: 20px 20px 20px 20px;
+}
+.trasparentdiv:hover
+{
+	box-shadow: 10px 10px 10px 10px green;
+}
+.about2
+{
+	display: grid;
+	grid-template-rows:10px 300px;
+	grid-template-columns:700px 300px;
+	margin-top:100px;
+	grid-gap: 100px;
+
+}
+
+.modal-body p,li,h1,h2,h3,h4
+{
+	color: green;
+}
+
+.about3 
+{
+	
+	display: grid;
+	grid-template-rows: 420px;
+	grid-template-columns: 250px 250px 250px 250px;
+	grid-gap:32px;
+	margin-top: 40px;
+	
+}
+
+.about3 div
+{
+	background-color: #121212;
+	padding:10px 10px 10px 10px;
+}
+.about3 h5
+{
+	text-align: center;
+	color: green;
+}
+.about3 li
+{
+	color: white;
+}
+.about3 div:hover
+{
+	box-shadow: 10px 10px 10px 10px green;
+}
+.footer
+{
+	margin-top: 40px;
+	background-color:#121212;
+	display: grid;
+	grid-template-rows:repeat(4,100px);
+	padding-bottom: 20px 20px 20px 20px;
+	text-align: center;
+
+}
+.footer h1
+{
+	color: white;
+	text-align: center;
+}
+.contactUs a
+{
+	margin:150px 150px 150px 150px;
+}
+
+.contactUs i
+{
+	margin: 10px 10px 10px 10px;
+}
+
+.social a
+{
+	margin:20px 20px 20px 20px;
+}
